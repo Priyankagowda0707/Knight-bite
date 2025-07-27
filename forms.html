@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey form</p>
+     <form id="survey-form">
+    
+       
+        <label for="name" id="name-label">Name : </label><br>
+        <input type="text" placeholder="Enter your name" name="name" id="name" required><br><br>
+
+        <label for="email" id="email-label">Email :</label><br>
+<input type="email" placeholder="Enter your email" name="email" id="email" required><br><br>
+
+        <label for="age" id="number-label">Age :</label><br>
+<input type="number" placeholder="Enter your age" id="age" name="age"><br><br>
+
+<label for="role">Which option best describes your current role?<br>
+    <select  id="role" name="role">
+        <option value="1">Student</option>
+        <option value="2">Full Time Job </option>
+        <option value="3">Full Time Learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+    </select>
+</label><br><br>
+
+
+        <label >Would you recommend freeCodeCamp to a friend?</label><br><br>
+        <label for="definitely">Definitely </label>
+        <input type="radio" id="definitely" name="recommend"><br>
+
+        <label for="maybe">Maybe</label>
+        <input type="radio" id="maybe" name="recommend"><br>
+
+        <label for="not sure">Not sure</label>
+        <input type="radio" id="not sure" name="recommend"><br><br>
+
+        <label>What do you like most about freeCodeCamp? (Check all that apply)</label><br>
+        <label for="challenges">Challenges</label>
+        <input type="checkbox" id="challenges" name="opinion"><br>
+
+        <label for="projects">Projects</label>
+        <input type="checkbox" id="projects" name="opinion"><br>
+
+        <label for="community">Community</label>
+        <input type="checkbox" id="community" name="opinion"><br>
+
+        <label for="open source">Open Source</label>
+        <input type="checkbox" id="open source" name="opinion"><br><br>
+
+        <label for="comments">Any comments or suggestions ? </label><br>
+        <textarea name="comments" id="comments" placeholder="Enter your comment here..." rows="5"  cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit" name="submit">
+
+    
+    </form>
+</body>
+</html>

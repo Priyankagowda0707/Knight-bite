@@ -1,0 +1,52 @@
+body{
+   font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+#title{
+    color: #080101;
+}
+
+#survey-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    background-image: url("./bridge-7907835_1280.jpg");
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding-right: none;
+    padding:10px;
+    margin-bottom: 10px;
+   
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
